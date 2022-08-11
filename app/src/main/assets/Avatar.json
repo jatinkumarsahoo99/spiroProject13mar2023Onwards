@@ -1,0 +1,331 @@
+[
+  {
+    "avatar": {
+      "data": [
+        {
+          "id": 1,
+          "imageURL": "man_1",
+          "color":"#33A7DB",
+          "type":"male"
+        },
+        {
+          "id": 2,
+          "imageURL": "man_6",
+          "color":"#89CEE5",
+          "type":"male"
+        },
+        {
+          "id": 3,
+          "imageURL": "man_3",
+          "color":"#DDA643",
+          "type":"male"
+        },
+        {
+          "id": 4,
+          "imageURL": "man_14",
+          "color":"#FFFFFF",
+          "type":"male"
+        },
+        {
+          "id": 5,
+          "imageURL": "man_4",
+          "color":"#89CEE5",
+          "type":"male"
+        },  
+        {
+          "id": 6,
+          "imageURL": "man_5",
+          "color":"#90CE38",
+          "type":"male"
+        },  {
+          "id": 7,
+          "imageURL": "man_7",
+          "color":"#0ACEEF",
+          "type":"male"
+        },  {
+          "id": 8,
+          "imageURL": "man_8",
+          "color":"#7243B5",
+          "type":"male"
+        },  {
+          "id": 9,
+          "imageURL": "man_16",
+          "color":"#39D0A5",
+          "type":"male"
+        },  {
+          "id": 10,
+          "imageURL": "man_9",
+          "color":"#3D46B2",
+          "type":"male"
+        },{
+          "id":11,
+          "imageURL":"man_13",
+          "color":"#33A7DB",
+          "type":"male"
+        },{
+          "id":12,
+          "imageURL":"man_12",
+          "color":"#3D46B2",
+          "type":"male"
+        },{
+          "id":13,
+          "imageURL":"man_20",
+          "color":"#6D84F3",
+          "type":"male"
+        }
+      ,{
+          "id":14,
+          "imageURL":"woman_1",
+          "color":"#e4e1e6",
+          "type":"female"
+        }
+      ,{
+          "id":15,
+          "imageURL":"woman_2",
+          "color":"#0ACEEF",
+          "type":"female"
+        },{
+          "id":16,
+          "imageURL":"woman_4",
+          "color":"#DFB2EA",
+          "type":"female"
+        },{
+          "id":17,
+          "imageURL":"woman_11",
+          "color":"#0ACEEF",
+          "type":"female"
+        },{
+          "id":18,
+          "imageURL":"woman_8",
+          "color":"#90CE38",
+          "type":"female"
+        },{
+          "id":19,
+          "imageURL":"woman_13",
+          "color":"#39D0A5",
+          "type":"female"
+        },{
+          "id":20,
+          "imageURL":"woman_5",
+          "color":"#FF7B91",
+          "type":"female"
+        },{
+          "id":21,
+          "imageURL":"woman_9",
+          "color":"#DFB2EA",
+          "type":"female"
+        },{
+          "id":22,
+          "imageURL":"woman_6",
+          "color":"#39D0A5",
+          "type":"female"
+        },{
+          "id":23,
+          "imageURL":"woman_10",
+          "color":"#6D84F3",
+          "type":"female"
+        },{
+          "id":24,
+          "imageURL":"woman_7",
+          "color":"#FF7B91",
+          "type":"female"
+        },{
+          "id":25,
+          "imageURL":"woman_20",
+          "color":"#FF7B91",
+          "type":"female"
+        },{
+          "id":26,
+          "imageURL":"char_2",
+          "color":"#FFBF00",
+          "type":"character"
+        },{
+          "id":27,
+          "imageURL":"char_1",
+          "color":"#6D84F3",
+          "type":"character"
+        },{
+          "id":28,
+          "imageURL":"char_3",
+          "color":"#47C3D9",
+          "type":"character"
+        },{
+          "id":30,
+          "imageURL":"malechild_1",
+          "color":"#FFBF00",
+          "type":"male_children"
+        }
+      ,{
+          "id":31,
+          "imageURL":"malechild_2",
+          "color":"#6D84F3",
+          "type":"male_children"
+        },{
+          "id":32,
+          "imageURL":"malechild_3",
+          "color":"#33A7DB",
+          "type":"male_children"
+        },{
+          "id":33,
+          "imageURL":"malechild_4",
+          "color":"#90CE38",
+          "type":"male_children"
+        },{
+          "id":34,
+          "imageURL":"femalechild_1",
+          "color":"#0ACEEF",
+          "type":"female_children"
+        },{
+          "id":35,
+          "imageURL":"femalechild_2",
+          "color":"#FFBF00",
+          "type":"female_children"
+        },{
+          "id":36,
+          "imageURL":"femalechild_3",
+          "color":"#90ce38",
+          "type":"female_children"
+        },{
+          "id":37,
+          "imageURL":"femalechild_4",
+          "color":"#FF7B91",
+          "type":"female_children"
+        },{
+          "id":38,
+          "imageURL":"man_11",
+          "color":"#33a7db",
+          "type":"male"
+        },{
+          "id":39,
+          "imageURL":"man_1_copy",
+          "color":"#17c9c7",
+          "type":"male"
+        },{
+          "id":40,
+          "imageURL":"man_1_copy_2",
+          "color":"#17b3c9",
+          "type":"male"
+        },{
+          "id":41,
+          "imageURL":"man_1_copy_3",
+          "color":"#07ac77",
+          "type":"male"
+        },{
+          "id":42,
+          "imageURL":"man_3_copy",
+          "color":"#e3c508",
+          "type":"male"
+        },{
+          "id":43,
+          "imageURL":"boy_3_copy_2",
+          "color":"#6eb2dc",
+          "type":"male_children"
+        },{
+          "id":44,
+          "imageURL":"boy_1",
+          "color":"#ccdc10",
+          "type":"female_children"
+        },{
+          "id": 45,
+          "imageURL": "woman_1_copy",
+          "color": "#39d0a5",
+          "type": "female"
+        },{
+          "id": 46,
+          "imageURL": "woman_2_copy",
+          "color": "#0aceef",
+          "type": "female"
+        },{
+          "id": 47,
+          "imageURL": "woman_08",
+          "color": "#f55f0c",
+          "type": "female"
+        },{
+          "id": 48,
+          "imageURL": "woman_11_copy",
+          "color": "#0aceef",
+          "type": "female"
+        },{
+          "id": 49,
+          "imageURL": "girl_2_copy",
+          "color": "#c4dc1e",
+          "type": "female_children"
+        },{
+          "id": 50,
+          "imageURL": "girl_2_copy_2",
+          "color": "#33a7db",
+          "type": "female_children"
+        },{
+          "id": 51,
+          "imageURL": "gir_6_copy_2",
+          "color": "#f55f0c",
+          "type": "female_children"
+        },{
+          "id": 52,
+          "imageURL": "girl_3_copy",
+          "color": "#6d84f3",
+          "type": "female_children"
+        }
+      , {
+          "id": 53,
+          "imageURL": "ic_boy_1",
+          "color":"#33A7DB",
+          "type":"male_children"
+        },
+        {
+          "id": 54,
+          "imageURL": "ic_boy_2",
+          "color":"#89CEE5",
+          "type":"male_children"
+        },
+        {
+          "id": 55,
+          "imageURL": "ic_boy_3",
+          "color":"#DDA643",
+          "type":"male_children"
+        },
+        {
+          "id": 56,
+          "imageURL": "ic_boy_4",
+          "color":"#FFFFFF",
+          "type":"male_children"
+        },
+        {
+          "id": 57,
+          "imageURL": "ic_boy_5",
+          "color":"#89CEE5",
+          "type":"male_children"
+        },
+        {
+          "id":58,
+          "imageURL":"ic_girl",
+          "color":"#e4e1e6",
+          "type":"female_children"
+        }
+      ,{
+          "id":59,
+          "imageURL":"ic_girl_2",
+          "color":"#0ACEEF",
+          "type":"female_children"
+        },{
+          "id":60,
+          "imageURL":"ic_girl_3",
+          "color":"#DFB2EA",
+          "type":"female_children"
+        },{
+          "id":61,
+          "imageURL":"ic_girl_4",
+          "color":"#0ACEEF",
+          "type":"female_children"
+        },{
+          "id":62,
+          "imageURL":"ic_girl_5",
+          "color":"#90CE38",
+          "type":"female_children"
+        }
+        
+      ]
+    
+}
+ }
+]

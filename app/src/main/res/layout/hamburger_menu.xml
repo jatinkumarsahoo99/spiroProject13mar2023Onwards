@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/dashboard_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="@id/dashboard"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="@id/dashboard"
+       android:visibility="invisible"
+       />
+
+   <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+
+       android:id="@+id/dashboard"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/title_activity_dashboard"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/my_profile_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:visibility="invisible"
+       />
+
+ <!--  <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+
+       android:id="@+id/my_profile"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/my_profile"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/dashboard" />
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/medications_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="@+id/medications"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="@+id/medications"
+       android:visibility="invisible"
+       />
+
+   <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+       android:id="@+id/medications"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/medications"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/my_profile" />
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/trends_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="@+id/trends"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="@+id/trends"
+       android:visibility="invisible"
+       />
+
+   <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+       android:id="@+id/trends"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/trends"
+       android:visibility="gone"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/medications" />
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/reports_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="@+id/reports"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="@+id/reports"
+       android:visibility="invisible"
+       />
+
+   <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+       android:id="@+id/reports"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/reports"
+       android:visibility="gone"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/trends" />
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/about_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="@+id/about"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="@+id/about"
+       android:visibility="invisible"
+       />
+
+   <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+       android:id="@+id/settings"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/settings"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/reports" />
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/setting_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="@+id/settings"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="@+id/settings"
+       android:visibility="invisible"
+       />
+
+   <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+       android:id="@+id/about"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/about"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/settings" />
+
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/legal_selected_image"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       app:srcCompat="@drawable/ic_nav_label_selected"
+       app:layout_constraintTop_toTopOf="@+id/legal"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="@+id/legal"
+       android:visibility="invisible"
+       />
+
+   <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+       android:id="@+id/legal"
+       style="@style/drawer_menu"
+       android:paddingStart="@dimen/_16sdp"
+       android:paddingEnd="@dimen/_16sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="@dimen/_8sdp"
+       android:paddingBottom="@dimen/_8sdp"
+       android:text="@string/legal"
+       android:textColor="@color/black"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/about" />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

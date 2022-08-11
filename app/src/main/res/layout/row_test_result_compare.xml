@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_8sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    >
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblHeaderMeasurement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:gravity="top"
+        android:text="@string/fvc"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblMeasureValue"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblHeaderMeasureValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:gravity="center_horizontal|top"
+        android:text=" "
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblPercentage"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblMeasurement"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblHeaderPercentage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" "
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblLNN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblMeasureValue"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblHeaderLNN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:gravity="center"
+        android:text="@string/lnn"
+        android:theme="@style/label_11ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblZscore"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblPercentage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblHeaderZscore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:gravity="center"
+        android:text="@string/z_score"
+        android:theme="@style/label_11ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblLNN"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblMeasurement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="top"
+        android:text="@string/fvc"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="#70000000"
+        app:layout_constraintEnd_toStartOf="@+id/lblMeasureValue"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toStartOf="@id/lblHeaderMeasurement"
+        app:layout_constraintTop_toBottomOf="@id/lblHeaderMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblMeasureValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:gravity="center_horizontal|top"
+        android:text="5.04 L"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblPercentage"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblMeasurement"
+        app:layout_constraintTop_toTopOf="@id/lblMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblPercentage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="121.45%"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblLNN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblMeasureValue"
+        app:layout_constraintTop_toTopOf="@id/lblMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblLNN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="2.40"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblZscore"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblPercentage"
+        app:layout_constraintTop_toTopOf="@id/lblMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblZscore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="-2.54"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblLNN"
+        app:layout_constraintTop_toTopOf="@id/lblMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblPostMeasurement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="top"
+        android:text="@string/post"
+        android:alpha="0.5"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblMeasureValue"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toStartOf="@id/lblHeaderMeasurement"
+        app:layout_constraintTop_toBottomOf="@id/lblMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblPostMeasureValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:gravity="center_horizontal|top"
+        android:text="5.04 L"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblPercentage"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblMeasurement"
+        app:layout_constraintTop_toTopOf="@id/lblPostMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblPostPercentage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="121.45%"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblLNN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblMeasureValue"
+        app:layout_constraintTop_toTopOf="@id/lblPostMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblPostLNN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="2.40"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lblZscore"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblPercentage"
+        app:layout_constraintTop_toTopOf="@id/lblPostMeasurement" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblPostZscore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="-2.54"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/lblLNN"
+        app:layout_constraintTop_toTopOf="@id/lblPostMeasurement" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#EEF0FF"
+        android:layout_marginTop="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblPostMeasurement" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

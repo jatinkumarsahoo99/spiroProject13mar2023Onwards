@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_8sdp"
+    android:padding="@dimen/_8sdp"
+    android:background="@drawable/ic_med_freq_bg">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/txtFreq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtFreq"
+        app:srcCompat="@drawable/ic_selected_test_type" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/txtFreq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:text="Everyday"
+        android:paddingEnd="@dimen/_16sdp"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageCheck"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

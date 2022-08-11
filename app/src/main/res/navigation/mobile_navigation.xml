@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.safey.lungmonitoring.ui.dashboard.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_dashboardFVCBottomSheetDialog"
+            app:destination="@id/dashboardFVCBottomSheetDialog" />
+        <action
+            android:id="@+id/action_nav_home_to_takeTestorSymptonsFragment"
+            app:destination="@id/takeTestorSymptonsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_addSymptonsFragment"
+            app:destination="@id/addSymptonsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_testResultsFragment"
+            app:destination="@id/testResultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.fragments.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/deviceSetupFragment"
+        android:name="com.safey.lungmonitoring.ui.devicesetup.DeviceSetupFragment"
+        android:label="@string/device_setup"
+        tools:layout="@layout/fragment_device_setup">
+        <action
+            android:id="@+id/action_deviceSetupFragment_to_spirometryTestFrag"
+            app:destination="@id/spirometryTestFrag"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/legalFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.fragments.LegalFragment"
+        android:label="Legal"
+        tools:layout="@layout/fragment_legal" />
+    <fragment
+        android:id="@+id/trendsFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.trends.TrendsFragment"
+        android:label="@string/trends"
+        tools:layout="@layout/fragment_trends" >
+        <action
+            android:id="@+id/action_trendsFragment_to_dashboardFVCBottomSheetDialog"
+            app:destination="@id/dashboardFVCBottomSheetDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/spirometryTestFrag"
+        android:name="com.safey.lungmonitoring.ui.test.SpirometryTestFrag"
+        android:label="@string/device_setup"
+        tools:layout="@layout/fragment_spirometry_test" >
+        <action
+            android:id="@+id/action_spirometryTestFrag_to_trialFragment"
+            app:destination="@id/trialFragment" />
+        <argument
+            android:name="deviceType"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/testResultsFragment"
+        android:name="com.safey.lungmonitoring.ui.test.TestResultsFragment"
+        android:label="fragment_test_results"
+        tools:layout="@layout/fragment_test_results" >
+        <argument
+            android:name="trial"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_testResultsFragment_to_nav_home2"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/testCompleteFragment"
+        android:name="com.safey.lungmonitoring.ui.test.TestCompleteFragment"
+        android:label="fragment_test_complete"
+        tools:layout="@layout/fragment_test_complete" />
+    <action
+        android:id="@+id/action_global_aboutFragment"
+        app:destination="@id/aboutFragment"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="false" />
+    <action
+        android:id="@+id/action_global_legalFragment"
+        app:destination="@id/legalFragment"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="false" />
+    <action
+        android:id="@+id/action_global_trendsFragment"
+        app:destination="@id/trendsFragment"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="false" />
+    <fragment
+        android:id="@+id/addMedicationFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.medication.AddMedicationFragment"
+        android:label="ADD MEDICATION">
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicationsFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.medication.MedicationsFragment"
+        android:label="@string/medications" />
+    <action
+        android:id="@+id/action_global_medicationsFragment"
+        app:destination="@id/medicationsFragment"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="false" />
+    <action
+        android:id="@+id/action_global_addMedicationFragment"
+        app:destination="@id/addMedicationFragment"
+        app:popUpToInclusive="false" />
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.reports.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports">
+        <action
+            android:id="@+id/action_reportsFragment_to_testTypeFragment"
+            app:destination="@id/testTypeFragment" />
+        <action
+            android:id="@+id/action_reportsFragment_to_downloadFragment"
+            app:destination="@id/downloadFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_reportsFragment3"
+        app:destination="@id/reportsFragment"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="false" />
+    <fragment
+        android:id="@+id/testTypeFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.reports.TestTypeFragment"
+        android:label="fragment_test_type"
+        tools:layout="@layout/fragment_test_type" >
+        <action
+            android:id="@+id/action_testTypeFragment_to_measurementsFragment"
+            app:destination="@id/measurementsFragment" />
+        <argument
+            android:name="reportType"
+            app:argType="integer"
+             />
+        <argument
+            android:name="reportRangeType"
+            app:argType="integer"
+           />
+    </fragment>
+    <fragment
+        android:id="@+id/measurementsFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.reports.MeasurementsFragment"
+        android:label="fragment_measurements"
+        tools:layout="@layout/fragment_measurements" >
+        <action
+            android:id="@+id/action_measurementsFragment_to_downloadFragment"
+            app:destination="@id/downloadFragment" />
+        <argument
+            android:name="reportType"
+            app:argType="integer"
+             />
+        <argument
+            android:name="testType"
+            app:argType="integer"
+           />
+        <argument
+            android:name="reportRangeType"
+            app:argType="integer"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/downloadFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.reports.DownloadFragment"
+        android:label="DownloadFragment" >
+        <argument
+            android:name="reportType"
+            app:argType="integer"
+             />
+        <argument
+            android:name="testType"
+            app:argType="integer"
+            />
+        <argument
+            android:name="reportRangeType"
+            app:argType="integer"
+             />
+        <argument
+            android:name="Measurements"
+            app:argType="string"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+    <action
+        android:id="@+id/action_global_settingsFragment"
+        app:destination="@id/settingsFragment"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="false" />
+    <fragment
+        android:id="@+id/profileFragment3"
+        android:name="com.safey.lungmonitoring.ui.dashboard.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/avatarDialogFragment4"
+        android:name="com.safey.lungmonitoring.ui.profile.AvatarDialogFragment"
+        android:label="AvatarDialogFragment" >
+        <argument
+            android:name="gender"
+            app:argType="integer" />
+    </fragment>
+    <action android:id="@+id/action_global_avatarDialogFragment4"
+        app:destination="@id/avatarDialogFragment4" />
+    <action
+        android:id="@+id/action_global_profileFragment3"
+        app:destination="@id/profileFragment3"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="false" />
+    <action android:id="@+id/action_global_nav_home" app:destination="@id/nav_home" />
+    <fragment
+        android:id="@+id/trialFragment"
+        android:name="com.safey.lungmonitoring.ui.test.TrialFragment"
+        android:label="TrialFragment" />
+    <action
+        android:id="@+id/action_global_testResultsFragment"
+        app:destination="@id/testResultsFragment"
+        app:popUpToInclusive="false" />
+    <dialog
+        android:id="@+id/dashboardFVCBottomSheetDialog"
+        android:name="com.safey.lungmonitoring.ui.dashboard.home.DashboardFVCBottomSheetDialog"
+        android:label="DashboardFVCBottomSheetDialog" >
+        <argument
+            android:name="measurement_type"
+            app:argType="integer"
+             />
+    </dialog>
+    <fragment
+        android:id="@+id/takeTestorSymptonsFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.fragments.TakeTestorSymptonsFragment"
+        android:label="TakeTestorSymptonsFragment" >
+        <action
+            android:id="@+id/action_takeTestorSymptonsFragment_to_deviceSetupFragment"
+            app:destination="@id/deviceSetupFragment" />
+        <action
+            android:id="@+id/action_takeTestorSymptonsFragment_to_addSymptonsFragment"
+            app:destination="@id/addSymptonsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addSymptonsFragment"
+        android:name="com.safey.lungmonitoring.ui.dashboard.symptons.AddSymptonsFragment"
+        android:label="fragment_add_symptons"
+        tools:layout="@layout/fragment_add_symptons" >
+        <argument
+            android:name="symptomId"
+            app:argType="string"
+            />
+    </fragment>
+
+</navigation>

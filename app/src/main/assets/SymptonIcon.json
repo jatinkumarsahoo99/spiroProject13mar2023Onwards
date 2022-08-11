@@ -1,0 +1,37 @@
+[
+  {
+      "data": [
+        {
+          "id": 1,
+          "sympton": "Difficulty in breathing",
+          "imageURL": "ic_difficultly_in_breathing"
+        },
+        {
+          "id": 2,
+          "sympton": "Cough",
+          "imageURL": "ic_cough"
+        },
+        {
+          "id": 3,
+          "sympton": "Chest Pain",
+          "imageURL": "ic_chest_pain"
+        },
+        {
+          "id": 4,
+          "sympton": "Shortness of breath",
+          "imageURL": "ic_shortness_of_breath"
+        },
+        {
+          "id": 5,
+          "sympton": "Tachycardia",
+          "imageURL": "ic_tachycardia"
+        },
+        {
+          "id": 6,
+          "sympton": "Common cold",
+          "imageURL": "ic_common_cold"
+        }
+
+      ]
+}
+]

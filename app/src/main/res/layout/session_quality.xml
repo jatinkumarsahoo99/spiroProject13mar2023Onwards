@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/_16sdp"
+    android:paddingTop="@dimen/_16sdp"
+    android:paddingEnd="@dimen/_16sdp"
+    android:paddingBottom="@dimen/_24sdp"
+    android:background="@drawable/session_blue_popup_round">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/grpsession"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:constraint_referenced_ids="viewLine,lblVariance,lblTestPerformed,sessionRecyclerView"
+        android:visibility="gone"/>
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/txtSessionScore"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/imageCircle"
+        app:layout_constraintTop_toTopOf="@id/imageCircle"
+        app:layout_constraintBottom_toBottomOf="@id/imageCircle"
+        app:layout_constraintEnd_toEndOf="@id/imageCircle"
+        android:text="B"
+        android:gravity="center"
+
+        android:textColor="#00D16C"
+
+        android:contentDescription="B" />
+
+    <ImageView
+        android:id="@+id/imageCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_round_green"
+        android:contentDescription="B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblSessionQuality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/session_quality"
+        android:theme="@style/label_12ssp_white"
+        app:layout_constraintStart_toEndOf="@id/txtSessionScore"
+        app:layout_constraintTop_toTopOf="@id/txtSessionScore"
+        app:layout_constraintBottom_toBottomOf="@id/txtSessionScore"
+        android:layout_marginStart="@dimen/_8sdp"/>
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_blue_round"
+        android:drawableEnd="@drawable/ic_down_arrow"
+        android:drawablePadding="@dimen/_4sdp"
+        android:gravity="center"
+        android:id="@+id/labelMore"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:text="@string/more"
+        android:theme="@style/label_12ssp_white"
+        app:layout_constraintBottom_toBottomOf="@+id/lblSessionQuality"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lblSessionQuality" />
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#EEF0FF"
+        app:layout_constraintTop_toBottomOf="@+id/txtSessionScore"
+        app:layout_constraintStart_toStartOf="@id/txtSessionScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:alpha="0.2"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblVariance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/variance"
+        android:theme="@style/label_12ssp_white"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine"
+        app:layout_constraintStart_toStartOf="@id/viewLine"
+        android:layout_marginTop="@dimen/_12sdp"/>
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblTestPerformed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha=".5"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_16sdp"
+        android:text="Test performed: 12 Nov 2021 04:49 PM"
+        android:theme="@style/label_12ssp_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/lbl_normal_spirometry"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_normal_spirometry" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sessionRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lblVariance"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_12sdp"/>
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lbl_normal_spirometry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:visibility="gone"
+        android:text="@string/normal_spirometry"
+        android:textColor="@color/greencolor"
+        app:layout_constraintStart_toStartOf="@+id/sessionRecyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/sessionRecyclerView" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lbl_interpretation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="Interpretation: NICE 2010"
+        android:textColor="@color/greencolor"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/sessionRecyclerView"
+        app:layout_constraintTop_toTopOf="@+id/lbl_normal_spirometry" />
+</androidx.constraintlayout.widget.ConstraintLayout>

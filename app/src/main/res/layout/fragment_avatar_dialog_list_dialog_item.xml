@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.safey.lungmonitoring.customviews.CustomTextViewCircularStd xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:paddingStart="@dimen/_16sdp"
+    android:paddingTop="@dimen/_8sdp"
+    android:paddingEnd="@dimen/_16sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:text="Hello" />

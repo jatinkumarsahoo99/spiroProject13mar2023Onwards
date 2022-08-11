@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/_12sdp"
+    android:background="@drawable/dashboard_test_block"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/post"
+        android:textColor="#00D16C"
+        android:textSize="@dimen/_8ssp"
+        android:paddingStart="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_4sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:background="@drawable/ic_post_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingEnd="@dimen/_8sdp"
+        android:paddingStart="@dimen/_8sdp"
+        android:src="@drawable/ic_dashboard_more"
+        android:textSize="@dimen/_8ssp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fvc"
+        android:theme="@style/label_11ssp"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pre"
+        />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09:00 AM"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:theme="@style/label_11ssp"
+        android:gravity="top"
+        android:alpha="0.3"
+        app:layout_constraintStart_toStartOf="@+id/lblMeasurement"
+        app:layout_constraintTop_toBottomOf="@+id/lblMeasurement"
+        />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_17ssp"
+        android:text="98%"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="#0081FF"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintTop_toBottomOf="@+id/lblTime"
+        app:layout_constraintStart_toStartOf="@+id/lblMeasurement"
+        />
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="@dimen/_18ssp"
+        android:text=""
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/line_dashboard"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:textColor="#0081FF"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/lblPercentage"
+        app:layout_constraintStart_toEndOf="@+id/lblPercentage"
+        app:layout_constraintBottom_toBottomOf="@id/lblPercentage"
+        />
+
+    <TextView
+        android:id="@+id/lblSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="@dimen/_18ssp"
+        android:text=""
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:textColor="#0081FF"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/lblDivider"
+        app:layout_constraintStart_toEndOf="@+id/lblDivider"
+        app:layout_constraintBottom_toBottomOf="@id/lblDivider"
+        />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblMeasurementValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center_horizontal|top"
+        android:text="6.81L"
+        android:textColor="#0081FF"
+        android:textSize="@dimen/_17ssp"
+        app:layout_constraintStart_toEndOf="@+id/lblSpace"
+        app:layout_constraintTop_toBottomOf="@+id/lblTime" />
+
+    <ImageButton
+        android:id="@+id/deleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_delete_png"
+        tools:layout_editor_absoluteX="346dp"
+        android:gravity="center"
+        android:background="#F8F8FF"
+        android:paddingEnd="@dimen/_8sdp"
+        android:paddingStart="@dimen/_8sdp"
+        android:textSize="@dimen/_8ssp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/PatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:theme="@style/label_11ssp"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <ImageButton
+        android:id="@+id/postData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="16dp"
+        android:background="#0898cc"
+        android:gravity="center"
+        android:paddingStart="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:textSize="@dimen/_8ssp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/ic_menu_upload"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,371 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Safey Pocket Spirometer</string>
+    <string name="continuetext">Continue</string>
+    <string name="skip">Skip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="measure_your_lung_in_palm_of_your_hands">Measure Your Lung in Palm of Your Hands</string>
+    <string name="most_accurate_spirometer_device">Most accurate spirometer device</string>
+    <string name="fda_cleared">FDA Cleared</string>
+    <string name="i_agree_to_privacy_policy_and_terms_of_use" translatable="false">I agree to Privacy Policy and Terms of Use</string>
+    <string name="i_agree_to_processing">I agree to processing of my personal health data for providing me Safey functions. See more in Privacy Policy.</string>
+    <string name="i_agree_that_aerobit">I agree that Safey may use my personal data to send me product or services offerings, e.g. via Safey app or email. *</string>
+    <string name="i_agree_that_aerobithealth">I agree that Safey and its integrated partners may receive my personal data. This helps Safey app to reach me and people like me to spread the word about the app. Such shared data is strictly limited to: **</string>
+    <string name="you_can_withdraw">* You can withdraw your consent anytime by contacting us at info@safeymedicaldevices.com</string>
+    <string name="secondprivacy">I agree to the Clause 7.4 of the Terms of Use, stating that this App and Services are intended as a helpful reminder tool for taking medications. I should not rely on the App and the Services as the primary tool for determining whether and when to take medication.</string>
+    <string name="welcome_to_aerobit_apps">Welcome to Safey app</string>
+    <string name="privacypolicyinapp"><a href="http://safeymedicaldevices.com/privacy-policy">Privacy Policy</a></string>
+    <string name="termsinapp"><a href="http://safeymedicaldevices.com/terms-and-conditions">Terms of Use</a></string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="profile">Profile</string>
+    <string name="back">back</string>
+    <string name="inactive">inactive</string>
+    <string name="firstname">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="save">Save</string>
+    <string name="ethnicity">Ethnicity</string>
+    <string name="gender">Gender</string>
+    <string name="height">Height</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="cm">cm</string>
+    <string name="ft">ft</string>
+    <string name="caucasian">Caucasian</string>
+    <string name="male">Male</string>
+    <string name="TODO">todo</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="menu_gender_male">Male</string>
+    <string name="menu_gender_female">Female</string>
+
+    <string name="su">SUN</string>
+    <string name="mo">MON</string>
+    <string name="tu">TUE</string>
+    <string name="we">WED</string>
+    <string name="th">THU</string>
+    <string name="fr">FRI</string>
+    <string name="sa">SAT</string>
+
+    <string name="American_African">African American</string>
+    <string name="Caucasian">Caucasian</string>
+    <string name="North_East_Asian">North East Asian</string>
+    <string name="South_East_Asian">South East Asian</string>
+    <string name="Others">Others</string>
+    <string name="my_profile">My Profile</string>
+    <string name="medications">Medications</string>
+    <string name="trends">Trends</string>
+    <string name="reports">Reports</string>
+    <string name="about">About</string>
+
+    <string name="get_ready_for_your_spirometry_test">Get Ready For Your Spirometry Test</string>
+    <string name="manage_your_lungs_in_the_palm_of_your_hands">Manage your lungs in the palm of your hands</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="female">Female</string>
+    <string name="children">Children</string>
+    <string name="characters">Characters</string>
+
+    <string name="choose_avatar">Choose avatar</string>
+    <string name="please_select_gender">Please select gender</string>
+    <string name="error">Error</string>
+    <string name="active">Active</string>
+    <string name="forced_expi">Forced Expiratory Vital Capacity</string>
+    <string name="fvc">FVC</string>
+    <string name="week">Week</string>
+    <string name="_1_month">1 Month</string>
+    <string name="_6_months">6 Months</string>
+    <string name="_1_year">1 Year</string>
+    <string name="all">All</string>
+    <string name="device_setup">Device Setup</string>
+    <string name="legal">Legal</string>
+    <string name="safey_permission_bluetooth">Safey App wants to connect to Bluetooth</string>
+    <string name="deny">Deny</string>
+    <string name="connecting_to_safey_device">Connecting to Safey Device</string>
+    <string name="allow">Allow</string>
+    <string name="forced_expiratory_nvital_capacity">Forced Expiratory\nVital Capacity</string>
+    <string name="forced_inspiratory_nvital_capacity">Forced Inspiratory \nVital Capacity</string>
+    <string name="flow_volume_loop">Flow Volume Loop</string>
+    <string name="show_vital_capacity">Slow Vital Capacity</string>
+    <string name="maximum_voluntary_ventilation">Maximum Voluntary Ventilation</string>
+    <string name="please_select_to_desired_n_spirometry_test_type">Please select to desired\n Spirometry Test Type</string>
+    <string name="next">Next</string>
+    <string name="secs">Secs</string>
+    <string name="pre_test">Pre-Test</string>
+    <string name="ensure_a_ti">Ensure a tight seal around your mouthpiece</string>
+    <string name="cancel">Cancel</string>
+    <string name="certain_days_week">Certain days</string>
+    <string name="everyday">Everyday</string>
+    <string name="number_of_days">Number of days</string>
+    <string-array name="test_type_array">
+        <item>@string/forced_expiratory_nvital_capacity</item>
+        <!--<item>@string/forced_inspiratory_nvital_capacity</item>-->
+        <!-- <item>@string/flow_volume_loop</item>
+        <item>@string/show_vital_capacity</item>
+        <item>@string/maximum_voluntary_ventilation</item>-->
+    </string-array>
+
+    <integer-array name="test_type_drawables">
+
+        <item>@drawable/ic_fevc</item>
+        <item>@drawable/ic_fivc</item>
+        <!-- <item>@drawable/ic_flow_volume_loop</item>
+        <item>@drawable/ic_svc</item>
+        <item>@drawable/ic_maximum_volume</item>-->
+    </integer-array>
+    <string name="no_device_found">No device found</string>
+    <string name="saved_device_not_found">Saved Device not found</string>
+    <string name="invalid_trail_plz_retry">Invalid trial, please retry</string>
+    <string name="start_blowing">Start blowing</string>
+    <string name="device_disconnected">Device is disconnected</string>
+    <string name="trial_completed">Trial Completed</string>
+    <string name="test_completed">Test completed</string>
+    <string name="no_data_available">No data available</string>
+    <string name="done">Done</string>
+    <string name="you_are_doing_good">You are doing good</string>
+    <string name="keep_blowing">Keep blowing</string>
+    <string name="insufficient_blow">Insufficient Blow</string>
+    <string name="fan_moving">Wait until fan stop moving</string>
+    <string name="time_out">Timeout, try again</string>
+    <string name="no_trial_to_delete">No trial to delete</string>
+    <string name="select_testtype_msg">Please click on the below device and start your Lung Function Test.</string>
+    <string name="volume_litre">Volume (L)</string>
+    <string name="trial_4"> 4 </string>
+    <string name="trial_3"> 3 </string>
+    <string name="trial_2"> 2 </string>
+    <string name="trial_1"> 1 </string>
+    <string name="addpost">Add POST</string>
+    <string name="finishtest">Finish Test</string>
+    <string name="remove_this_result">Remove This result</string>
+    <string name="trials">Trials</string>
+    <string name="flow_l_s_">Flow (L/s)</string>
+    <string name="flow_volume">Flow/Volume</string>
+    <string name="volume_seco">Volume/Seconds</string>
+    <string name="volume_l">Volume (L)</string>
+    <string name="measurement">Measurements</string>
+    <string name="z_score">Z-score</string>
+    <string name="lnn">LNN</string>
+    <string name="thank_you_f">"Thank You for taking the test "</string>
+    <string name="go_to_dashboard">Go to Dashboard</string>
+    <string name="compare">Compare</string>
+    <string name="session_qua">Session quality</string>
+    <string name="more">More</string>
+    <string name="click_here_to_start">Click Here to Start</string>
+    <string name="start">Start</string>
+    <string name="batteryperc">Battery Percentage :</string>
+    <string name="device_type_msg">Please click on the below device and\nstart your Lung Function Test.</string>
+    <string name="pocket_spirometer">Pocket Spirometer</string>
+    <string name="medication_name">MEDICATION NAME</string>
+    <string name="doses">Doses</string>
+    <string name="times_a_day">Times a day</string>
+    <string name="medication_type">MEDICATION TYPE</string>
+    <string name="frquency">FREQUENCY</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="every_day">EveryDay</string>
+    <string name="times_day">Time/Day</string>
+    <string name="edit_medication">Edit Medication</string>
+    <string name="remove_medication">Remove Medication</string>
+    <string name="update">Update</string>
+    <string name="medication_exist">Medication already exist</string>
+
+    <string-array name="weekdays_short">
+        <item>@string/sun</item>
+        <item>@string/mon</item>
+        <item>@string/tue</item>
+        <item>@string/wed</item>
+        <item>@string/thu</item>
+        <item>@string/fri</item>
+        <item>@string/sat</item>
+    </string-array>
+
+    <string name="frequency">Frequency</string>
+    <string name="days_interval">Days interval</string>
+
+    <string name="dose_time">Doses</string>
+    <string name="times_in_day">Time in day</string>
+
+    <string name="days_of_week">Set days of the week</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday  </string>
+    <string name="saturday">Saturday</string>
+    <string name="ok">Ok</string>
+    <string name="best_session">Best Session</string>
+    <string name="data_range">DATA RANGE</string>
+    <string name="download_report">Download Report as</string>
+    <string name="download">Download</string>
+    <string name="select_test_type">SELECT TEST TYPE</string>
+    <string name="select_upto_5_measurements">Select upto 5 Measurements</string>
+    <string name="click_download">Click “download button” and get your\nreport right on to your phone. If you\nwant to share your report, please\nclick “share” button</string>
+    <string name="your_report">Your Report is Ready</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="spirometer_data_set">Spirometer Data Set</string>
+    <string name="gli">GLI</string>
+    <string name="nhances">Nhannes</string>
+    <string name="pdf">PDF</string>
+    <string name="csv">CSV</string>
+    <string name="confirm_changes">Confirm Changes</string>
+    <string name="are_you_sure_message">Are you sure you want to change Spirometer data set</string>
+    <string name="are_you_sure_you_want_to_delete_your_medications">Are you sure you want to Delete\nyour Medication?</string>
+    <string name="proceed_dashboard">Proceed to Dashboard</string>
+    <string name="your_medication_saved_successfully">Your Medication is saved successfully</string>
+    <string name="your_medication_updated_successfully">Your Medication is updated successfully</string>
+    <string name="gps_location_message">Your GPS seems to be disabled, do you want to enable it ?</string>
+    <string name="enable_location_services">Enable Your Location services</string>
+    <string name="spirometry_test">SPIROMETRY TEST</string>
+    <string name="starttest">Start Test</string>
+    <string name="addmedication">ADD MEDICATION</string>
+    <string name="you_have_not_saved_your_result">You have unsaved results.Do you want to quit without saving?</string>
+    <string name="quit">Quit</string>
+    <string name="trial_deleted">Trial deleted.</string>
+    <string name="delete_this_trial">Are you sure you want to delete this trial?</string>
+    <string name="delete">Delete</string>
+    <string name="delete_trial">Delete Trial</string>
+    <string name="add_trial">+ Add Trial</string>
+    <string name="last_session">Last session\n</string>
+    <string name="today_session">Today\'s session\n</string>
+    <string name="morning">Morning</string>
+    <string name="pre">PRE</string>
+    <string name="post">POST</string>
+    <string name="svc">SVC</string>
+    <string name="please_select_measurements">Please Select Measurements</string>
+    <string name="select">Select</string>
+    <string name="fev1">FEV1</string>
+    <string name="pef">PEF</string>
+    <string name="evening">Evening</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="add_symptom">Add Symptoms</string>
+    <string name="take_test">Take Test</string>
+    <string name="tryagain">Try again</string>
+    <string name="please_add_your_medication">Please add your Medication</string>
+    <string name="medication_name_addpost">Medication name</string>
+    <string name="time_s">Time (S)</string>
+    <string name="session_quality">Session Quality</string>
+    <string name="variance">Variance</string>
+    <string name="normal_spirometry">Normal Spirometry</string>
+    <string name="fevc_testresults">FEVC - TEST RESULTS</string>
+    <string name="fivc_testresults">FIVC - TEST RESULTS</string>
+    <string name="add_symptons">ADD SYMPTOMS</string>
+    <string name="mail_subject">Crash</string>
+    <string name="mail_body">Please find attached crash report</string>
+    <string name="title_testpeakflow">Test Peak Flow</string>
+    <string name="title_spirometrytest">spirometry test</string>
+    <string name="this_week">THIS WEEK</string>
+    <string name="last_week">LAST WEEK</string>
+    <string name="this_month">THIS MONTH</string>
+    <string name="last_month">LAST MONTH</string>
+    <string name="last_3_months">LAST 3 MONTHS</string>
+    <string name="last_6_months">LAST 6 MONTHS</string>
+    <string name="mediumfont">assets/fonts/poppins_medium.ttf</string>
+    <string name="boldfont">assets/fonts/poppins_bold.ttf</string>
+    <string name="UTF">UTF-8</string>
+    <string name="print_dob_label">Birth Date</string>
+    <string name="print_title">Safey</string>
+    <string name="print_author">Safey Author</string>
+    <string name="print_subject">Safey Spirometer</string>
+    <string name="print_keywords">Safey Medical Devices</string>
+    <string name="print_creator">"Safey "</string>
+    <string name="print_file_path">Safey</string>
+    <string name="print_file_folder_path">/Safey/Print</string>
+    <string name="print_pdf_filename">SafeyFile.pdf</string>
+    <string name="print_receipt_name">safeylogo.png</string>
+
+    <string-array name="weekdays">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string-array name="intervals">
+        <item>Last 7 Days</item>
+        <item>Last 15 Days</item>
+        <item>Last Month</item>
+    </string-array>
+    <string name="bev">BEV</string>
+    <string name="eotv" tools:ignore="ExtraTranslation">EOTV</string>
+    <string name="erv">ERV</string>
+    <string name="evc">EVC</string>
+    <string name="fef10">FEF10</string>
+    <string name="fef25">FEF25</string>
+    <string name="fef2575">FEF25-75</string>
+    <string name="fef2575fvc">FEF25-75/FVC</string>
+    <string name="fef40">FEF40</string>
+    <string name="fef50">FEF50</string>
+    <string name="fef50FVC">FEF50/FVC</string>
+    <string name="fef60">FEF60</string>
+    <string name="fef75">FEF75</string>
+    <string name="fef80">FEF80</string>
+    <string name="fet">FET</string>
+    <string name="fet2575">FET25-75</string>
+    <string name="fev025">FEV0.25</string>
+    <string name="fev05">FEV0.5</string>
+    <string name="fev05fvc">FEV0.5/FVC</string>
+    <string name="fev075">FEV0.75</string>
+    <string name="fev075fvc">FEV0.75/FVC</string>
+
+    <string name="fev1f">FEV1/FEV6</string>
+    <string name="fev1fev6">FEV1/FEV6</string>
+    <string name="fev1fiv1">FEV1/FIV1</string>
+    <string name="fev1fvc">FEV1/FVC</string>
+    <string name="fev1vc">FEV1/VC</string>
+    <string name="fev3">FEV3</string>
+    <string name="fev3fvc">FEV3/FVC</string>
+    <string name="fev6fvc">FEV6/FVC</string>
+    <string name="fev6">FEV6</string>
+    <string name="fiV025">FIV0.25</string>
+    <string name="fiV05">FIV0.5</string>
+    <string name="fiV1">FIV1</string>
+    <string name="fif25">FIF25</string>
+    <string name="fif251">FIF25(MIF75)</string>
+    <string name="fif50">FIF50</string>
+    <string name="fif501">FIF50(MIF50)</string>
+    <string name="fif50fef50">FIF50/FEF50</string>
+    <string name="fif75">FIF75</string>
+    <string name="fif751">FIF75(MIF25)</string>
+    <string name="fiv1">FIV1</string>
+    <string name="fiv1fivc">FIV1/FIVC</string>
+    <string name="fivc">FIVC</string>
+    <string name="frc">FRC</string>
+
+    <string name="fvc6">FVC6</string>
+    <string name="ic">IC</string>
+    <string name="irv">IRV</string>
+    <string name="ivc">IVC</string>
+    <string name="fif2575">FIF25-75</string>
+    <string name="weekly_avg_results">Weekly Average Results</string>
+    <string name="monthly_avg_results">Monthly Average Results</string>
+    <string name="posttest">Post-Test</string>
+    <string name="share_report">Share Report</string>
+    <string name="or">OR</string>
+    <string name="trial">Trial</string>
+    <string name="viewreport">View Report</string>
+    <string name="viewcsv">View CSV</string>
+    <string name="locationmsg">Safey Pocket Spirometer App collections location data in the background to enable the Bluetooth Low Energy feature in the App. This feature will allow you to conduct your lung test seamlessly. </string>
+    <string name="locationdenymsg">The Lung Test cannot be conducted as Location Permissions are mandatory for connecting to the Safey Pocket Spirometer via Bluetooth.</string>
+    <string name="please_wait">Please wait</string>
+
+</resources>

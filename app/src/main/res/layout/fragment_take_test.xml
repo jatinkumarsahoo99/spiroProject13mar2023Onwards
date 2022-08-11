@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".ui.dashboard.fragments.AboutFragment">
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/imageViewCross">
+
+   <LinearLayout
+       android:id="@+id/layout_Sympton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:orientation="vertical">
+       <ImageView
+           android:id="@+id/imageView4"
+           android:layout_width="wrap_content"
+           android:layout_height="0dp"
+           android:layout_marginTop="16dp"
+           android:contentDescription="@string/add_symptom"
+           android:src="@drawable/ic_add_symptons"
+           android:visibility="gone"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+          android:layout_weight="1"
+           app:layout_constraintVertical_chainStyle="spread_inside" />
+
+       <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+
+           android:id="@+id/add_symptom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp"
+           android:gravity="center_horizontal|top"
+           android:lineSpacingExtra="7sp"
+           android:text="@string/add_symptom"
+           android:visibility="gone"
+           android:theme="@style/label_13ssp"
+           android:translationY="-3.53sp"
+           android:padding="@dimen/_8sdp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/imageView4" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTakeTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewTaketest"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:contentDescription="@string/add_symptom"
+        android:src="@drawable/ic_take_test"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewTakeTest"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/take_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="@dimen/_8sdp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/take_test"
+        android:theme="@style/label_13ssp"
+        android:translationY="-3.53sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewCross"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTaketest" />
+    </LinearLayout>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/imageViewCross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/close"
+        android:src="@drawable/ic_cross_pink_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

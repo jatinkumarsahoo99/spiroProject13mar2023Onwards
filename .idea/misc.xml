@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.34791666666666665" />
+        <entry key="../../../../../layout/custom_preview.xml" value="0.3712962962962963" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/bg_recyclerview.xml" value="0.1595" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/btn_blue_round.xml" value="0.1595" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/btn_pink_round.xml" value="0.1355" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_drawer.xml" value="0.1595" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_plus_dashboard.xml" value="0.1355" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_profile_round.xml" value="0.1595" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/ic_round_share.xml" value="0.1705" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/drawable/share_dialogbg_round.xml" value="0.1705" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/activity_dashboard.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/activity_intro.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/activity_splash.xml" value="0.121875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/add_post_dialog.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/dialog_delete.xml" value="0.15729166666666666" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/dialog_progress.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/dialog_share_finishtest.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_add_symptons.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_avatar_dialog_list_dialog_item.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_device_setup.xml" value="0.2" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_intro.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_spirometry_test.xml" value="0.121875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_take_test.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_test_complete.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_test_results.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_test_type.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/fragment_trends.xml" value="0.24479166666666666" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/hamburger_menu.xml" value="0.26875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/layout_battery.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/layout_report_testdetail.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/layout_test_type.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/liquidview_pretest.xml" value="0.121875" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_add_symptons.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_dashboard.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_fvc_dashboard.xml" value="0.264" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_test_result.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/row_test_result_header.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_cancel_button.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_finish_addpost_button.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_finish_postpdf_button.xml" value="0.23072916666666668" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_save_button.xml" value="0.25" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/safey_toolbar.xml" value="0.24479166666666666" />
+        <entry key="..\:/Flutter Nirmalya Projects1/lungapp-production/app/src/main/res/layout/session_quality.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable-nodpi/flow_volume_dotted.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable-nodpi/predicted_dotted.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable-xhdpi/add_icon.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable-xhdpi/sele.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable-xxhdpi/circleshape.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable-xxhdpi/gray_circle.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable-xxhdpi/gray_circle_no_border.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/bg_recyclerview.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/bg_two_color.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/blue_dark_popup_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/blue_popup_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/btn_blue_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/btn_green_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/btn_pink_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/btn_white_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/check_selector.xml" value="0.31574074074074077" />
+        <entry key="app/src/main/res/drawable/circle_border.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable/circle_green.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/dashboard_sympton_block.xml" value="0.3225" />
+        <entry key="app/src/main/res/drawable/dashboard_test_block.xml" value="0.3225" />
+        <entry key="app/src/main/res/drawable/default_dot.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/fade_white.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/freq_check_selector.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_add_symptons.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.17314814814814813" />
+        <entry key="app/src/main/res/drawable/ic_btn_pink_round.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_btn_white.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/ic_btn_white_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_button_white_round.xml" value="0.25462962962962965" />
+        <entry key="app/src/main/res/drawable/ic_cal_round_blue.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_cal_round_pink.xml" value="0.2245" />
+        <entry key="app/src/main/res/drawable/ic_check.xml" value="0.32592592592592595" />
+        <entry key="app/src/main/res/drawable/ic_chest_pain.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_common_cold.xml" value="0.3225" />
+        <entry key="app/src/main/res/drawable/ic_cough.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_csv.xml" value="0.32" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_divider.xml" value="0.3225" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_img.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.30833333333333335" />
+        <entry key="app/src/main/res/drawable/ic_delete_med.xml" value="0.33" />
+        <entry key="app/src/main/res/drawable/ic_device_blue.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_device_green.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_device_green_notick.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_device_test_type.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_difficultly_in_breathing.xml" value="0.3225" />
+        <entry key="app/src/main/res/drawable/ic_down_arrow.xml" value="0.3277777777777778" />
+        <entry key="app/src/main/res/drawable/ic_down_dashboard_arrow.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_green_round.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_line_trial.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_med1.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/drawable/ic_med2.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/drawable/ic_med3.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/drawable/ic_med4.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/drawable/ic_med_cal.xml" value="0.3314814814814815" />
+        <entry key="app/src/main/res/drawable/ic_pdf.xml" value="0.32" />
+        <entry key="app/src/main/res/drawable/ic_peakflow_green.xml" value="0.22314814814814815" />
+        <entry key="app/src/main/res/drawable/ic_pink_circle.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_pink_round.xml" value="0.27037037037037037" />
+        <entry key="app/src/main/res/drawable/ic_plus_dashboard.xml" value="0.2245" />
+        <entry key="app/src/main/res/drawable/ic_plus_icon.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/ic_post_bg.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_predicted_line.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_radio_unchecked.xml" value="0.2245" />
+        <entry key="app/src/main/res/drawable/ic_rigt_polygon.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_round_blue_btn.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_round_green.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_round_pink_btn.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_rounded_green.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_rounded_ping_btn.xml" value="0.27037037037037037" />
+        <entry key="app/src/main/res/drawable/ic_rounded_white_bg.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_rounded_white_btn.xml" value="0.32592592592592595" />
+        <entry key="app/src/main/res/drawable/ic_selected_test_type.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_shortness_of_breath.xml" value="0.3225" />
+        <entry key="app/src/main/res/drawable/ic_shortnest_breadth.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_spiro_tick.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_sympton_male.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_tachycardia.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_test_type_bg.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_testtype.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_toggle_bg.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_trial_bg.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/ic_trial_selected_bg.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/ic_uncheck.xml" value="0.32592592592592595" />
+        <entry key="app/src/main/res/drawable/ic_unselected_round.xml" value="0.2245" />
+        <entry key="app/src/main/res/drawable/ic_white_btn.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/ic_white_top_round.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/line_dotted_bottom.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/med_round_bg.xml" value="0.3314814814814815" />
+        <entry key="app/src/main/res/drawable/more_bg.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/permission_popup_background.xml" value="0.25462962962962965" />
+        <entry key="app/src/main/res/drawable/radio_selector.xml" value="0.32314814814814813" />
+        <entry key="app/src/main/res/drawable/selected_dot.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/session_blue_popup_round.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/shapesdisable.xml" value="0.246875" />
+        <entry key="app/src/main/res/drawable/share_dialogbg_round.xml" value="0.32" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/toggle_selector.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/waveviewushape.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/white_popup_round.xml" value="0.3353846153846154" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.10067873303167421" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.48203125" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_login 3.xml" value="0.48203125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.48203125" />
+        <entry key="app/src/main/res/layout/activity_otpactivity.xml" value="0.2390625" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.16302083333333334" />
+        <entry key="app/src/main/res/layout/add_post_dialog.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/app_bar_dashboard.xml" value="0.10067873303167421" />
+        <entry key="app/src/main/res/layout/color_icon_item_layout.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/content_dashboard.xml" value="0.10067873303167421" />
+        <entry key="app/src/main/res/layout/delete_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_delete.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/dialog_progress.xml" value="0.3223958333333333" />
+        <entry key="app/src/main/res/layout/dialog_share_finishtest.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/dialog_success_dashboard.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.15780141843971632" />
+        <entry key="app/src/main/res/layout/fragment_add_medications.xml" value="0.3057142857142857" />
+        <entry key="app/src/main/res/layout/fragment_add_symptons.xml" value="0.28425925925925927" />
+        <entry key="app/src/main/res/layout/fragment_avatar_dialog_list_dialog.xml" value="0.15780141843971632" />
+        <entry key="app/src/main/res/layout/fragment_avatar_dialog_list_dialog_item.xml" value="0.15780141843971632" />
+        <entry key="app/src/main/res/layout/fragment_delete.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_device_setup.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_download.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.10067873303167421" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/fragment_intro.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/fragment_legal.xml" value="0.15780141843971632" />
+        <entry key="app/src/main/res/layout/fragment_measurements.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/fragment_medications.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_reports.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_spirometry_test.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_take_test.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_test_complete.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/fragment_test_results.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_test_type.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/fragment_trends.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_trial.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/hamburger_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/layout_battery.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/layout_pre_test.xml" value="0.15780141843971632" />
+        <entry key="app/src/main/res/layout/layout_report_testdetail.xml" value="0.48359375" />
+        <entry key="app/src/main/res/layout/layout_session_quility.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/layout_test_type.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/liquidview_pretest.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/med_icons_item_layout.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/nav_header_dashboard.xml" value="0.10067873303167421" />
+        <entry key="app/src/main/res/layout/otpedittext.xml" value="0.7731829573934837" />
+        <entry key="app/src/main/res/layout/permission_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/row_add_symptons.xml" value="0.28425925925925927" />
+        <entry key="app/src/main/res/layout/row_avatar.xml" value="0.15780141843971632" />
+        <entry key="app/src/main/res/layout/row_best_test_result.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/row_confirmation.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/row_dashboard.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/row_device_type.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/row_fvc_dashboard.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/row_fvc_dashboard1.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/row_fvc_dashboard_pink.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/row_fvctype.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/row_innner_dashboard.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/row_measurement.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/row_med_frequency.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/row_medication_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/row_sympton_dashboard.xml" value="0.4796875" />
+        <entry key="app/src/main/res/layout/row_test_result.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/row_test_result_compare.xml" value="0.4796875" />
+        <entry key="app/src/main/res/layout/row_test_result_header.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/row_test_type.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/row_variance.xml" value="0.48203125" />
+        <entry key="app/src/main/res/layout/safey_cancel_button.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/safey_finish_addpost_button.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/safey_next_cancel_button.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/layout/safey_save_button.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/safey_toolbar.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/session_quality.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/show_calender_list.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/menu/dashboard.xml" value="0.32447916666666665" />
+        <entry key="app/src/main/res/menu/popup_menu_ethnicity.xml" value="0.2029315960912052" />
+        <entry key="app/src/main/res/menu/popup_menu_gender.xml" value="0.2029315960912052" />
+        <entry key="app/src/main/res/menu/popup_menu_range.xml" value="0.23072916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.32447916666666665" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+   <!-- <data>
+        <import type="com.safey.lungapp.data.datautils.enumHeightUnit"/>
+        <import type="com.safey.lungapp.custombinings.BindingUtils"/>
+        <variable
+            name="patient"
+            type="com.safey.lungapp.data.tables.patient.Patient" />
+    </data>-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/btnSave"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_60sdp"
+                android:padding="@dimen/_16sdp">
+
+                <ImageView
+                    android:id="@+id/profileImageBg"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+
+                    android:background="@drawable/ic_profile_round"
+
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/TODO" />
+                <!-- android:tag="@{patient.avatar}"
+                   app:image="@{patient.avatar}"-->
+
+                <ImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_camera"
+                    android:tag="@string/inactive"
+                    android:focusable="true"
+                    android:clickable="false"
+                    app:layout_constraintEnd_toEndOf="@id/profileImageBg"
+                    app:layout_constraintStart_toStartOf="@id/profileImageBg"
+                    app:layout_constraintTop_toTopOf="@id/profileImageBg"
+                    app:layout_constraintBottom_toBottomOf="@id/profileImageBg"
+                    android:contentDescription="@string/TODO" />
+
+                <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+                    android:id="@+id/editPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#667074"
+                    android:textSize="@dimen/_12sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.3"
+                    android:gravity="top"
+                    android:lineSpacingExtra="7sp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:text="@string/firstname"
+                    android:textColor="@color/black"
+                    style="@style/profile_label"
+
+                    android:layout_marginStart="@dimen/_1sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/profileImageBg" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edFname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextLabel"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/fname" />
+                android:text="@={patient.firstName}"
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.3"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="7sp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:text="@string/last_name"
+                    android:textColor="@color/black"
+                    style="@style/profile_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edFname" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edLname"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/_8sdp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lname"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                android:text="@={patient.lastName}"
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lblGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.3"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="7sp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:text="@string/gender"
+                    android:textColor="@color/black"
+                    style="@style/profile_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edLname" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/_8sdp"
+                    style="@style/TextLabel"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lblGender" />
+                android:text="@={BindingUtils.posToGender(patient.gender)}"
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    app:srcCompat="@drawable/ic_down_arrow"
+                    app:layout_constraintEnd_toEndOf="@+id/edGender"
+                    app:layout_constraintBottom_toBottomOf="@+id/edGender"
+                    app:layout_constraintTop_toTopOf="@+id/edGender" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lblDOB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.3"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="7sp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:text="@string/date_of_birth"
+                    android:textColor="@color/black"
+                    style="@style/profile_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edGender" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edDOB"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/_8sdp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lblDOB"
+                    tools:ignore="TouchTargetSizeCheck" />
+                android:text="@={BindingUtils.longToDate(patient.birthDate)}"
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lblHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.3"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:gravity="top"
+
+                    android:lineSpacingExtra="7sp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:text="@string/height"
+                    android:textColor="@color/black"
+                    style="@style/profile_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edDOB" />
+
+                <EditText
+                    android:id="@+id/edHeight"
+                    style="@style/TextLabel"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/_8sdp"
+                    android:inputType="number"
+                    android:digits="0123456789."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lblHeight"
+                    tools:ignore="SpeakableTextPresentCheck" />
+                android:text="@={patient.height}"
+                <RadioGroup
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_24sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toEndOf="@+id/edHeight"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="@+id/lblHeight"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    app:layout_constraintBottom_toBottomOf="@+id/edHeight">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/radioCM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cm"
+
+                        android:fontFamily="@font/circularstd_medium"
+                        android:textSize="@dimen/_12ssp"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:textColor="@color/height_textcolor_selector"
+                        android:background="@drawable/toggle_selector"
+                        android:button="@null" />
+                    android:checked="@{patient.heightUnit==1}"
+                    android:onClick="@{()->patient.setHeightUnit(1)}"
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/radioFT"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ft"
+
+                        android:textSize="@dimen/_12ssp"
+                        android:fontFamily="@font/circularstd_medium"
+
+                        android:textColor="@color/height_textcolor_selector"
+                        android:background="@drawable/toggle_selector"
+                        android:button="@null" />
+
+                    android:checked="@{patient.heightUnit==2}"
+                    android:onClick="@{()->patient.setHeightUnit(2)}"
+                </RadioGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lblEthnicity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.3"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="7sp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:text="@string/ethnicity"
+                    android:textColor="@color/black"
+                    style="@style/profile_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edHeight" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edEthnicity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp"
+
+                    style="@style/TextLabel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lblEthnicity" />
+                android:text="@={BindingUtils.positionToEthnicity(patient.ethnicity)}"
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="@dimen/_16sdp"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/inter_semibold"
+            android:background="@drawable/ic_pink_round" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

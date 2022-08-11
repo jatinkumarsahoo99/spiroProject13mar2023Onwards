@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaveLoadingView">
+        <attr name="wlv_borderWidth" format="dimension"/>
+        <attr name="wlv_borderColor" format="color"/>
+        <attr name="wlv_progressValue" format="integer"/>
+        <attr name="wlv_shapeType" format="enum">
+            <enum name="triangle" value="0" />
+            <enum name="circle" value="1" />
+            <enum name="square" value="2" />
+            <enum name="rectangle" value="3" />
+            <enum name="roundrectangle" value="4" />
+        </attr>
+        <attr name="wlv_triangle_direction" format="enum">
+            <enum name="north" value="0" />
+            <enum name="south" value="1" />
+            <enum name="east" value="2" />
+            <enum name="west" value="3" />
+        </attr>
+        <attr name="wlv_round_rectangle" format="boolean"/>
+        <attr name="wlv_round_rectangle_x_and_y" format="integer"/>
+        <attr name="wlv_waveColor" format="color"/>
+        <attr name="wlv_wave_background_Color" format="color"/>
+        <attr name="wlv_waveAmplitude" format="float"/>
+        <attr name="wlv_titleTop" format="string"/>
+        <attr name="wlv_titleCenter" format="string"/>
+        <attr name="wlv_titleBottom" format="string"/>
+        <attr name="wlv_titleTopSize" format="dimension"/>
+        <attr name="wlv_titleCenterSize" format="dimension"/>
+        <attr name="wlv_titleBottomSize" format="dimension"/>
+        <attr name="wlv_titleTopColor" format="color"/>
+        <attr name="wlv_titleCenterColor" format="color"/>
+        <attr name="wlv_titleBottomColor" format="color"/>
+        <attr name="wlv_titleTopStrokeColor" format="color"/>
+        <attr name="wlv_titleTopStrokeWidth" format="dimension"/>
+        <attr name="wlv_titleBottomStrokeColor" format="color"/>
+        <attr name="wlv_titleBottomStrokeWidth" format="dimension"/>
+        <attr name="wlv_titleCenterStrokeColor" format="color"/>
+        <attr name="wlv_titleCenterStrokeWidth" format="dimension"/>
+    </declare-styleable>
+
+
+<attr name="shapeTypeSafey" format="enum">
+    <enum name="circle" value="1" />
+    <enum name="square" value="2" />
+    <enum name="heart" value="3" />
+    <enum name="star" value="4" />
+    <enum name="ushape" value="5" />
+</attr>
+<attr name="progress" format="integer" />
+<attr name="max" format="integer" />
+<attr name="borderWidthSize" format="dimension" />
+<attr name="frontColor" format="color" />
+<attr name="behideColor" format="color" />
+<attr name="borderColor" format="color" />
+<attr name="strong" format="integer" />
+<attr name="textColor" format="color" />
+<attr name="animatorEnable" format="boolean" />
+<attr name="textHidden" format="boolean" />
+<attr name="shapePadding" format="dimension" />
+
+<declare-styleable name="SafeyLiquidFillView">
+    <attr name="progress" />
+    <attr name="max" />
+    <attr name="strong" />
+    <attr name="frontColor" />
+    <attr name="behideColor" />
+    <attr name="borderColor" />
+    <attr name="borderWidthSize" />
+    <attr name="textColor" />
+    <attr name="animatorEnable" />
+    <attr name="shapeTypeSafey" />
+    <attr name="textHidden" />
+    <attr name="shapePadding" />
+    <attr name="titleTop" format="string"/>
+    <attr name="titleCenter" format="string"/>
+    <attr name="titleBottom" format="string"/>
+    <attr name="titleTopSize" format="dimension"/>
+    <attr name="titleCenterSize" format="dimension"/>
+    <attr name="titleBottomSize" format="dimension"/>
+    <attr name="titleTopColor" format="color"/>
+    <attr name="titleCenterColor" format="color"/>
+    <attr name="titleBottomColor" format="color"/>
+    <attr name="titleTopStrokeColor" format="color"/>
+    <attr name="titleTopStrokeWidth" format="dimension"/>
+    <attr name="titleBottomStrokeColor" format="color"/>
+    <attr name="titleBottomStrokeWidth" format="dimension"/>
+    <attr name="titleCenterStrokeColor" format="color"/>
+    <attr name="titleCenterStrokeWidth" format="dimension"/>
+</declare-styleable>
+
+
+</resources>

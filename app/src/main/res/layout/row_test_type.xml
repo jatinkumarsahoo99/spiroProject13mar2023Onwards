@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_test_type_bg"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp"
+    android:layout_margin="@dimen/_12sdp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/ic_selected_test_type"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_margin="@dimen/_15sdp"
+        android:id="@+id/image_testtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/img_testtype_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/img_testtype_bg"
+        app:layout_constraintStart_toStartOf="@+id/img_testtype_bg"
+        app:layout_constraintTop_toTopOf="@+id/img_testtype_bg"
+        app:srcCompat="@drawable/ic_fivc" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_testtype_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSelected"
+        app:srcCompat="@drawable/ic_testtype" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/txtTestType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forced_expiratory_nvital_capacity"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_14sdp"
+        android:theme="@style/label_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_testtype_bg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

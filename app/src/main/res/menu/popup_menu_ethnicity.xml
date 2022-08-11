@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/african_american"
+        android:title="@string/American_African" />
+    <item
+        android:id="@+id/caucasian"
+        android:title="@string/caucasian"/>
+    <item
+        android:id="@+id/North_East_Asian"
+        android:title="@string/North_East_Asian" />
+    <item
+        android:id="@+id/South_East_Asian"
+        android:title="@string/South_East_Asian"/>
+    <item
+        android:id="@+id/Others"
+        android:title="@string/Others" />
+
+
+</menu>
+
+
+<!--Done-->

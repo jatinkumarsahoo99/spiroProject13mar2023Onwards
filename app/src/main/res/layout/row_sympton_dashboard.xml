@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dashboard_sympton_block"
+    android:paddingBottom="@dimen/_12sdp">
+
+    <ImageView
+        android:id="@+id/imageSympton1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+
+        android:src="@drawable/ic_difficultly_in_breathing"
+        app:layout_constraintEnd_toStartOf="@+id/imageSympton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/add_symptom"/>
+
+    <ImageView
+        android:id="@+id/imageSympton2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+
+        android:src="@drawable/ic_cough"
+        app:layout_constraintBottom_toBottomOf="@+id/imageSympton1"
+        app:layout_constraintEnd_toStartOf="@+id/imageSympton3"
+
+        app:layout_constraintStart_toEndOf="@+id/imageSympton1"
+        app:layout_constraintTop_toTopOf="@+id/imageSympton1"
+        android:contentDescription="@string/add_symptom" />
+
+    <ImageView
+        android:id="@+id/imageSympton3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_chest_pain"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/more"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageSympton2"
+        app:layout_constraintTop_toTopOf="@id/imageSympton1"
+        android:contentDescription="@string/add_symptom"/>
+
+    <ImageView
+        android:id="@+id/imageSympton4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/add_symptom"
+        android:src="@drawable/ic_shortness_of_breath"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imageSympton5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageSympton1" />
+
+    <ImageView
+        android:id="@+id/imageSympton5"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_tachycardia"
+        app:layout_constraintEnd_toStartOf="@+id/imageSympton3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageSympton4"
+        app:layout_constraintTop_toTopOf="@id/imageSympton4"
+        android:contentDescription="@string/add_symptom"/>
+
+    <ImageView
+        android:id="@+id/imageSympton6"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/add_symptom"
+        android:src="@drawable/ic_common_cold"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/imageSympton3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageSympton5"
+        app:layout_constraintTop_toTopOf="@id/imageSympton4" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:alpha="0.3"
+        android:gravity="top"
+        android:text="09:00 AM"
+        android:theme="@style/label_11ssp"
+        app:layout_constraintBottom_toBottomOf="@id/lbl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSympton4"
+        />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:alpha="0.3"
+        android:gravity="top"
+        android:text=""
+        android:theme="@style/label_11ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingEnd="@dimen/_8sdp"
+        android:paddingStart="@dimen/_8sdp"
+        android:src="@drawable/ic_dashboard_more"
+        android:textSize="@dimen/_8ssp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

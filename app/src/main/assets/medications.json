@@ -1,0 +1,658 @@
+[
+  {
+    "medications": {
+      "data": [
+
+        /* 1 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc6b",
+          "name" : "Symbicort Turbuhaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 2 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc6a",
+          "name" : "Advair Diskus",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 3 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc69",
+          "name" : "Advair Mdi",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 4 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc68",
+          "name" : "Combivent Respimat",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 5 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc67",
+          "name" : "Inspiolto Respimat",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 6 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc66",
+          "name" : "Anoro Ellipta",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 7 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc65",
+          "name" : "Duaklir Genuair",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 8 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc64",
+          "name" : "Ultibro Breezhaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 9 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc63",
+          "name" : "Spiriva Handihaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 10 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc62",
+          "name" : "Incruse Ellipta",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 11 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc61",
+          "name" : "Tudorza Genuair",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 12 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc60",
+          "name" : "Seebri Breezhaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 13 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc5f",
+          "name" : "Pulmicort Turbuhaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 14 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc5e",
+          "name" : "Flovent Diskus",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 15 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc5d",
+          "name" : "Oxeze Turbuhaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 16 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc5c",
+          "name" : "Serevent Diskus",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 17 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc5b",
+          "name" : "Onbrez Breezhaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 18 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc5a",
+          "name" : "Bricanyl Turbuhaler",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 19 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc59",
+          "name" : "Ventolin Diskus",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 20 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc58",
+          "name" : "Spiriva Respimat",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 21 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc57",
+          "name" : "Atrovent Mdi",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 22 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc56",
+          "name" : "Flovent Mdi",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 23 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc55",
+          "name" : "Airomir Mdi",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 24 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc54",
+          "name" : "Ventolin Mdi",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 25 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc53",
+          "name" : "Xopenex Concentrate",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 26 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc52",
+          "name" : "Nucala",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 27 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc51",
+          "name" : "Lufyllin-Gg",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 28 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc50",
+          "name" : "Jay-Phyl",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 29 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc4f",
+          "name" : "Fasenra",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 30 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc4e",
+          "name" : "Dy-G",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 31 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc4d",
+          "name" : "Dilex-G 400",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 32 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc4c",
+          "name" : "Difil-G Forte",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 33 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc4b",
+          "name" : "Cinqair",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 34 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc4a",
+          "name" : "Benralizumab",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 35 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc49",
+          "name" : "Reslizumab",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 36 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc48",
+          "name" : "Mepolizumab",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 37 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc47",
+          "name" : "Dyphylline",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 38 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc46",
+          "name" : "Xopenex Hfa",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 39 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc45",
+          "name" : "Xopenex",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 40 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc44",
+          "name" : "Guaifenesin / Theophylline",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 41 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc43",
+          "name" : "Dexpak Taperpak",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 42 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc42",
+          "name" : "De-Sone La",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 43 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc41",
+          "name" : "Caffeineoff Label",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 44 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc40",
+          "name" : "Aerospan Hfa",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 45 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc3f",
+          "name" : "Levalbuterol",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 46 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc3e",
+          "name" : "Depo-Medrol",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 47 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc3d",
+          "name" : "Ciclesonide",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 48 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc3c",
+          "name" : "Solu-Medrol",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 49 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc3b",
+          "name" : "Medrol Dosepak",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 50 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc3a",
+          "name" : "Ipratropium Inhalation Solution",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 51 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc39",
+          "name" : "Fluticasone",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 52 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc38",
+          "name" : "Dyphylline",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 53 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc37",
+          "name" : "Medrol",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 54 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc36",
+          "name" : "Dexamethasone Intensol",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 55 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc35",
+          "name" : "Triamcinolone",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 56 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc34",
+          "name" : "Rayos",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 57 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc33",
+          "name" : "Methylprednisolone Dose Pack",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 58 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc32",
+          "name" : "Kenalog-40",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 59 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc31",
+          "name" : "Decadron",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 60 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc30",
+          "name" : "Formoterol",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 61 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc2f",
+          "name" : "Dexamethasone",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 62 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc2e",
+          "name" : "Atrovent Hfa",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 63 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc2d",
+          "name" : "Methylprednisolone",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 64 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc2c",
+          "name" : "Breo Ellipta",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 65 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc2b",
+          "name" : "Flunisolide",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 66 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc2a",
+          "name" : "Alvesco",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 67 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc29",
+          "name" : "Ipratropium",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 68 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc28",
+          "name" : "Atrovent",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 69 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc27",
+          "name" : "Dulera",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 70 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc26",
+          "name" : "Prednisone",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 71 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc25",
+          "name" : "Montelukast",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 72 createdAt:07/01/2019, 21:01:57*/
+        {
+          "id": "5c3370edfb8c78f68f3fbc24",
+          "name" : "Singulair",
+          "type" : "INHALER",
+          "strength" : ""
+        },
+
+        /* 73 createdAt:17/05/2018, 18:38:51*/
+        {
+          "id": "5afd7ee36356bc002189842f",
+          "name" : "Septron",
+          "strength" : "",
+          "type" : "TABLET"
+        },
+
+        /* 74 createdAt:17/05/2018, 18:34:02*/
+        {
+          "id": "5afd7dc26356bc002189841d",
+          "name" : "MesSyrup",
+          "strength" : "",
+          "type" : "SYRUP"
+        },
+
+        /* 75 createdAt:17/05/2018, 18:33:57*/
+        {
+          "id": "5afd7dbd6356bc002189841a",
+          "name" : "ZoloSyrup",
+          "strength" : "",
+          "type" : "SYRUP"
+        },
+
+        /* 76 createdAt:17/05/2018, 18:33:42*/
+        {
+          "id": "5afd7dae6356bc0021898415",
+          "name" : "Breo",
+          "strength" : "",
+          "type" : "INHALER"
+        },
+
+        /* 77 createdAt:17/05/2018, 18:33:35*/
+        {
+          "id": "5afd7da76356bc0021898412",
+          "name" : "Respimat",
+          "strength" : "",
+          "type" : "INHALER"
+        },
+
+        /* 78 createdAt:17/05/2018, 18:33:28*/
+        {
+          "id": "5afd7da06356bc002189840f",
+          "name" : "Clenil",
+          "strength" : "250mg",
+          "type" : "INHALER"
+        },
+
+        /* 79 createdAt:17/05/2018, 18:32:21*/
+        {
+          "id": "5afd7d5d6356bc00218983f7",
+          "name" : "Rantac",
+          "strength" : "350mg",
+          "type" : "TABLET"
+        },
+
+        /* 80 createdAt:17/05/2018, 18:32:15*/
+        {
+          "id": "5afd7d576356bc00218983f3",
+          "name" : "Aspirin",
+          "strength" : "150mg",
+          "type" : "TABLET"
+        },
+
+        /* 81 createdAt:17/05/2018, 18:32:05*/
+        {
+          "id": "5afd7d4d6356bc00218983ee",
+          "name" : "Dolo",
+          "strength" : "200mg",
+          "type" : "TABLET"
+        }
+
+
+      ]
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+      "data": [
+        {
+          "id": 1,
+          "imageURL": "ic_med1"
+        },
+        {
+          "id": 2,
+          "imageURL": "ic_med2"
+        },
+        {
+          "id": 3,
+          "imageURL": "ic_med3"
+        },
+        {
+          "id": 4,
+          "imageURL": "ic_med4"
+        }
+      ]
+}
+]

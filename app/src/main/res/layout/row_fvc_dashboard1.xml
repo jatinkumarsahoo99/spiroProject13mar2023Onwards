@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageViewSympton"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+
+        android:src="@drawable/ic_sympton_male"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtSympton"
+        app:layout_constraintBottom_toBottomOf="@id/lblSympton"/>
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/txtSympton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/_8sdp"
+        android:gravity="top"
+        android:text="Difficulty Breathing"
+        android:maxLines="2"
+        android:lines="2"
+
+
+        android:theme="@style/label_11ssp"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSympton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09:00 AM"
+        android:theme="@style/label_11ssp"
+        android:gravity="top"
+        android:alpha="0.3"
+        app:layout_constraintStart_toStartOf="@+id/txtSympton"
+        app:layout_constraintTop_toBottomOf="@+id/txtSympton"
+        />
+
+    <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+        android:id="@+id/lblSympton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:alpha="0.3"
+        android:gravity="top"
+        android:text="Symptons"
+        android:textSize="@dimen/_9ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSympton"
+        app:layout_constraintStart_toStartOf="@+id/txtSympton"
+        app:layout_constraintTop_toBottomOf="@+id/lblTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

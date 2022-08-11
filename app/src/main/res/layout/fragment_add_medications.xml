@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="medication"
+            type="com.safey.lungmonitoring.data.tables.patient.Medication" />
+    </data>
+
+  <!--  <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/_16sdp"
+        tools:context=".ui.dashboard.medication.AddMedicationFragment">
+-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_16sdp">
+
+            <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+                android:id="@+id/lblMedication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:alpha="0.3"
+                android:gravity="top"
+                android:text="@string/medication_name"
+                android:theme="@style/label_11ssp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/txtMedication"
+                style="@style/AutoCompleteTextViewAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 _-"
+                android:ems="10"
+                android:text="@{medication.medicationName!=null ? medication.medicationName : ``}"
+                android:inputType="text"
+                android:maxLength="42"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lblMedication" />
+
+
+            <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+                android:id="@+id/lblDoses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:alpha="0.3"
+                android:gravity="top"
+                android:text="@string/doses"
+                android:theme="@style/label_11ssp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtMedication" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_Med_Plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+
+                app:layout_constraintStart_toStartOf="@id/lblDoses"
+                app:layout_constraintTop_toBottomOf="@id/lblDoses"
+                app:srcCompat="@drawable/ic_med_plus" />
+
+            <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+                android:id="@+id/lbl_med_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="@dimen/_8sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@{String.valueOf(medication.noOfTimes)}"
+                android:theme="@style/label_13ssp"
+                android:translationY="-1.15sp"
+                app:layout_constraintBottom_toBottomOf="@id/image_Med_Plus"
+                app:layout_constraintStart_toEndOf="@+id/image_Med_Plus"
+                app:layout_constraintTop_toTopOf="@+id/image_Med_Plus" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_Med_Minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:padding="@dimen/_8sdp"
+
+                app:layout_constraintBottom_toBottomOf="@id/image_Med_Plus"
+                app:layout_constraintStart_toEndOf="@id/lbl_med_count"
+                app:layout_constraintTop_toTopOf="@id/image_Med_Plus"
+                app:srcCompat="@drawable/ic_med_minus" />
+
+            <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+                android:id="@+id/times_a_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="3sp"
+                android:text="@string/times_a_day"
+                android:theme="@style/label_13ssp"
+                android:translationY="-1.42sp"
+                app:layout_constraintBottom_toBottomOf="@id/image_Med_Plus"
+                app:layout_constraintStart_toEndOf="@+id/image_Med_Minus"
+                app:layout_constraintTop_toTopOf="@+id/image_Med_Plus" />
+
+            <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+                android:id="@+id/lblFrequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:alpha="0.3"
+                android:gravity="top"
+                android:text="@string/frquency"
+                android:theme="@style/label_11ssp"
+                app:layout_constraintBottom_toTopOf="@+id/recyclerViewFrequency"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_Med_Plus"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewFrequency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="8dp"
+                android:nestedScrollingEnabled="true"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toTopOf="@+id/medication_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/medication_type"
+                tools:listitem="@layout/row_med_frequency" />
+
+            <com.safey.lungmonitoring.customviews.CustomTextViewCircularStd
+                android:id="@+id/medication_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:alpha="0.3"
+                android:gravity="top"
+                android:text="@string/medication_type"
+                android:theme="@style/label_11ssp"
+                app:layout_constraintBottom_toTopOf="@+id/recyclerViewMedicineType"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_right_medicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:src="@drawable/ic_right_arrow_medicon"
+                app:layout_constraintBottom_toBottomOf="@id/medication_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/medication_type" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_left_medicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:src="@drawable/ic_left_med_icon"
+                app:layout_constraintBottom_toBottomOf="@id/medication_type"
+                app:layout_constraintEnd_toStartOf="@id/image_right_medicon"
+                app:layout_constraintTop_toTopOf="@id/medication_type" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMedicineType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:nestedScrollingEnabled="true"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toTopOf="@+id/recyclerViewMedicationColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/medication_type"
+                tools:listitem="@layout/med_icons_item_layout" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMedicationColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/_16sdp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toTopOf="@+id/layout_next_cancel_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/medication_type"
+                tools:listitem="@layout/color_icon_item_layout" />
+
+            <include
+                android:id="@+id/layout_next_cancel_button"
+                layout="@layout/safey_next_cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    </androidx.core.widget.NestedScrollView>-->
+</layout>

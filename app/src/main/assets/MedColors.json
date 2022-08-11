@@ -1,0 +1,30 @@
+[
+  {
+      "data": [
+        {
+          "id": 1,
+          "colorcode": "#ffffff"
+        },
+        {
+          "id": 2,
+          "colorcode": "#5fb9ff"
+        },
+        {
+          "id": 3,
+          "colorcode": "#6be541"
+        },
+        {
+          "id": 4,
+          "colorcode": "#fbde20"
+        },
+        {
+          "id": 5,
+          "colorcode": "#fa863c"
+        },
+        {
+          "id": 6,
+          "colorcode": "#eb5c48"
+        }
+      ]
+ }
+]

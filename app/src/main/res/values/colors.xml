@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00C4C4C4</color>
+    <color name="colorPrimary">#00C4C4C4</color>
+    <color name="colorApp">#00C4C4C4</color>
+    <color name="colorAccent">#AF4EA6</color>
+    <color name="colorBg">#E5E5E5</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="colorSecondary">#AF4EA6</color>
+    <color name="colorSecondaryDark">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink_day">#50AF4EA6</color>
+    <color name="black_two">#222222</color>
+    <color name="grey">#757982</color>
+    <color name="lightblack">#EEF0FF</color>
+    <color name="wavecolor">#2B4098</color>
+    <color name="wavegreencolor">#04A557</color>
+    <color name="greencolor">#00D16C</color>
+    <color name="red">#FF0000</color>
+    <color name="disableBlue">#89CFF0</color>
+    <color name="disablePink">#F4BDEF</color>
+    <color name="graph_line_color">#FFC725</color>
+    <color name="graph_line_color_grey">#8E8E8E</color>
+    <color name="test_inactive_color">#50ffffff</color>
+    <color name="report_graph_blue">#000C86</color>
+    <color name="report_fillcolor">#26737FFF</color>
+    <color name="report_axis_color">#9BA7FF</color>
+    <color name="rpt_graph_line_color_best">#9955DE</color>
+    <color name="rpt_line_color">#FFBD00</color>
+</resources>
