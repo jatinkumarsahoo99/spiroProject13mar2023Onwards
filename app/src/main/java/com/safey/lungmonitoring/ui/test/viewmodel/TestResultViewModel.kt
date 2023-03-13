@@ -36,8 +36,28 @@ class TestResultViewModel @Inject constructor(private val patientRepository: Pat
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe { patient ->
 
-                this.patient.postValue(patient[0])
-                patientData = patient[0]
+//                this.patient.postValue(patient[0])
+                this.patient.postValue(Patient(
+                    "jks",
+                    "sahoo",
+                    40,
+                    "170",
+                    2,
+                "",
+                    20,
+                    "9127903706695674"
+                ))
+//                patientData = patient[0]
+                patientData = Patient(
+                    "jks",
+                    "sahoo",
+                    40,
+                    "170",
+                    2,
+                    "",
+                    20,
+                    "9127903706695674"
+                )
                /* patientData.BirthDate = SafeyApplication.firstTestResult!!.dob
                 patientData.UHID = SafeyApplication.firstTestResult!!.userId.toString()
                 patientData.Height = SafeyApplication.firstTestResult!!.height.toString()

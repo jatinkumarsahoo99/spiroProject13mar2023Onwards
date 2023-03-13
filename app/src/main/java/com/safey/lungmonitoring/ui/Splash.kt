@@ -62,6 +62,16 @@ class Splash : AppCompatActivity() {
         patientData.HeightUnit = Integer.parseInt(intent.getStringExtra("HeightUnit").toString())
         patientData.BirthDate = intent.getStringExtra("BirthDate").toString().toLong()
         patientData.ethnicity =  Integer.parseInt(intent.getStringExtra("ethnicity").toString())
+
+        patientData.FirstName ="jks"
+        patientData.LastName = "sahoo"
+        patientData.Gender = 1
+        patientData.Height = "170"
+        patientData.UHID = "9127903706695674"
+        patientData.HeightUnit = 20
+        patientData.BirthDate = ("12-03-1998").toString().toLong()
+        patientData.ethnicity = 2
+
         viewModel.deleteAllPatient()
         viewModel.insertPatient(patient = patientData)
         findViewById<TextView>(R.id.test).text =   patientData.HeightUnit.toString()

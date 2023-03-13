@@ -127,14 +127,14 @@ class SpirometryTestFrag : Fragment(),  IErrorCallback,
                     binding.liquidviewPretest.timerGroup.visibility = View.VISIBLE
                     binding.liquidviewPretest.circularProgressIndicator.max = 100
 
-
+/*
                     dialog = CustomDialogs.dialogStyleProgress(CustomDialogStyle1DataModel(requireActivity(),"","Please wait while we prepare for your test... ","","",
                         object : DialogStyle1Click{
                             override fun positiveButtonClick() {}
 
                             override fun negativeButton() {}
 
-                        }))
+                        }))*/
                 }
             }
         })
@@ -202,7 +202,7 @@ class SpirometryTestFrag : Fragment(),  IErrorCallback,
             "INF_05" -> {
                 binding.liquidviewPretest.liquidFillView.mBottomTitle =
                     getString(R.string.start_blowing)
-                dialog!!.cancel()
+//                dialog!!.cancel()
                 var count = 0
                 binding.liquidviewPretest.circularProgressIndicator.progress = count
                 mCountDownTimer = object : CountDownTimer(20000, 1000) {
@@ -281,6 +281,10 @@ class SpirometryTestFrag : Fragment(),  IErrorCallback,
     override fun onProgressChange(progress: Int) {
        binding.liquidviewPretest.liquidFillView.progress = progress
     }
+
+  /*  override fun getTestResult(airGraphData: FlowVolumeData, trialCount: Int) {
+        TODO("Not yet implemented")
+    }*/
 
     override fun getTestResults(testResult: String, trialCount: Int,sessionScore : String) {
         binding.liquidviewPretest.liquidFillView.progress = 0

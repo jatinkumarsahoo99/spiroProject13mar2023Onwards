@@ -234,10 +234,13 @@ class DeviceSetupFragment : Fragment(), TestTypeClickListener, DeviceClickListen
                     }
                     Log.e(TAG, "onViewCreated: $height")
                     val safeyPerson = SafeyPerson(
-                        viewModel.patientData.ethnicity,
-                        viewModel.patientData.Gender,
+//                        viewModel.patientData.ethnicity,
+                        1,
+                        1,
+//                        viewModel.patientData.Gender,
                         age = Utility.getAge(viewModel.patientData.BirthDate),
-                        height = height,
+//                        height = height,
+                        height = 170,
                         weight = 0
                     )
                     safeyDeviceKit?.startTest(safeyPerson)
@@ -444,6 +447,10 @@ class DeviceSetupFragment : Fragment(), TestTypeClickListener, DeviceClickListen
         val action = DeviceSetupFragmentDirections.actionDeviceSetupFragmentToSpirometryTestFrag(deviceType)
         findNavController().navigate(action)
     }
+
+   /* override fun enableTest() {
+        TODO("Not yet implemented")
+    }*/
 
     @SuppressLint("SetTextI18n")
     override fun getBatteryStatus(batteryStatus: String) {
